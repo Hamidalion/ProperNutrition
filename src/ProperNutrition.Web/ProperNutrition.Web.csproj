@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProperNutrition.BLL\ProperNutrition.BLL.csproj" />
+    <ProjectReference Include="..\ProperNutrition.Common\ProperNutrition.Common.csproj" />
+  </ItemGroup>
+
 </Project>
